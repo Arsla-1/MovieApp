@@ -13,6 +13,7 @@ const App = () => {
     // prompt("Enter status code");
     axios.get(`${baseUrl}${input}`).then((response) => {
       setMyData(response.data);
+      console.log(response.data);
     });
   }, [input]);
   return (

@@ -1,0 +1,29 @@
+.movie-card {
+  max-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.movie-title {
+  color: #fab005;
+
+  font-weight: 600;
+}
+
+.movie-details {
+  text-align: left;
+}
+
+.poster {
+  width: 100%;
+  object-fit: cover;
+  border: solid 10px #fff;
+  border-radius: 20px;
+}
+
+.movie-summary {
+  font-weight: 300;
+}
